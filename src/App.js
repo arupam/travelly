@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import { CssBaseline, Grid } from "@material-ui/core";
 import { getPlacesData } from "./api";
 import Header from "./components/Header/Header";
+import styles from "./App.css";
 import List from "./components/List/List";
 import Map from "./components/Map/Map";
 
